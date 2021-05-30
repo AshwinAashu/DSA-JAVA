@@ -10,10 +10,11 @@ public class subclassone extends superClass {
 		 
 	}
 	void showk(){
+		super.show();
 		System.out.println("the value of k in subclass is"+ k );
 	}
 	void showij() {
-		super.show();
+		
 		System.out.println("the value of i and j  in sub class" + a +" "+ b);
 	}
 	
